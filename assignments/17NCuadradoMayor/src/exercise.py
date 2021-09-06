@@ -1,5 +1,5 @@
 def main():
-    num = int(input("Escribe un numero : ",'1'))
+    num = int(input("Escribe un numero : "))
     #escribe tu código abajo de esta línea
     for N in range(num):
         if N*N>30:
