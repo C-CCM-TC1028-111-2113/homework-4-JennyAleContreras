@@ -2,8 +2,7 @@ def main():
     num = int(input("Escribe un numero : "))
     #escribe tu código abajo de esta línea
     for N in range(num):
-        if N*N>30:
-            N=min(N)
+        if (N*N)>num:
             print(N)
     pass
 
