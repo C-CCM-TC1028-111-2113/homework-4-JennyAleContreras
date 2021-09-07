@@ -10,7 +10,7 @@ def fib(index):
 
 def main():
     #escribe tu código abajo de esta línea
-    index=int(input("Enter the index:"))
+    index=int(input("Enter the index"))
 
     print(fib(index))
 
