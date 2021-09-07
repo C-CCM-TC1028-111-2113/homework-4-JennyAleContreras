@@ -3,7 +3,7 @@ def main():
     #escribe tu código abajo de esta línea
     for N in range(num):
         if (N*N)>num:
-            print(N)
+            print(min(N))
     pass
 
 if __name__ == '__main__':
